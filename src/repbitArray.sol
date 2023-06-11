@@ -23,10 +23,10 @@ pragma solidity ^0.8.13;
 //
 
 
-// Improvements: The bit array needs to 
+// Improvement: The bit array needs to 
 // simulate allocating and deallocating memory 
-// dynamically. Whether this is done using an array
-// or through reordering. 
+// dynamically for if we reach the end of the array. 
+// Whether this is done using an array or through reordering. 
 
 contract repBitArray {
 
